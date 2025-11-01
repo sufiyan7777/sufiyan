@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Electra - Electrical Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand" style="height: 125px;">
+                        <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Electra</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="border-end border-primary pe-3">
+                                        <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                                    </div>
+                                    <div class="ps-3">
+                                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    <div class="d-flex border-end border-primary pe-3">
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <div class="dropdown ms-3">
+                                        <a href="#" class="dropdown-toggle text-white" data-bs-toggle="dropdown"><small class="text-body"><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">English</a>
+                                            <a href="#" class="dropdown-item">Bangla</a>
+                                            <a href="#" class="dropdown-item">French</a>
+                                            <a href="#" class="dropdown-item">Spanish</a>
+                                            <a href="#" class="dropdown-item">Arabic</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Electra</h1>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>  
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white">
+                                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                                    <a href="about.html" class="nav-item nav-link">About</a>
+                                    <a href="service.html" class="nav-item nav-link">Service</a>
+                                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Pages</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="project.html" class="dropdown-item">Our projects</a>
+                                            <a href="team.html" class="dropdown-item">Our team</a>
+                                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                            <a href="404.html" class="dropdown-item">404 Page</a>
+                                        </div>
+                                    </div>
+                                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                    <div class="nav-btn ps-3">
+                                        <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                        <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"> Get Solution</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel overflow-hidden">
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-1"></div>
+                <div class="hero-shape-1"></div>
+                <div class="carousel-caption">
+                    <div class="container"> <div c
+                       lass="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Current Electricity Services</h4>
+                                    <h1 class="display-2 text-white mb-4">Power for Seamless Electricity Solutions</h1>
+                                    <p class="mb-5 fs-5"> “Electra is committed to building a cleaner and more efficient energy future. Through cutting-edge technology and sustainable practices, we ensure seamless electricity solutions that power homes, industries, and communities responsibly.” 
+                                    </p>
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item hero-section">
+                <div class="hero-bg-half-2"></div>
+                <div class="hero-shape-2"></div>
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Current Electricity Services</h4>
+                                    <h1 class="display-2 text-white mb-4">Experience the power of professionalism</h1>
+                                    <p class="mb-5 fs-5">“Electra combines technical excellence with innovative energy solutions to power industries, businesses, and communities. Our professional approach guarantees efficient, sustainable, and seamless electricity systems for every client.”
+                                    </p>
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                        <a class="btn btn-light py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <h4 class="text-primary">About Us</h4>
+                            <h1 class="display-4 mb-4">Providing you with the highest quality of features</h1>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <a href="#" class="d-flex">
+                                        <span class="fas fa-bolt fa-3x me-3"></span>
+                                        <h4 class="mb-0">Emergency Power Solution</h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" class="d-flex">
+                                        <span class="fas fa-broadcast-tower fa-3x me-3"></span>
+                                        <h4 class="mb-0">Full-Service Electrical Layout</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="mb-4">“From concept to completion, Electra provides expert electrical solutions tailored to every need. Our professional team ensures precision, reliability, and performance in every project we undertake.”
+                            
+                            </p>
+                            <div class="text-dark mb-4">
+                                <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Installed, maintained and repaired lighting for clients.</p>
+                                <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Increasingly popular way to generate electricity.</p>
+                                <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Protect electrical devices from damage.</p>
+                            </div>
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="position-relative h-100">
+                            <img src="img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                            <div class="bg-white">
+                                <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
+                                    <div class="bg-primary p-4">
+                                        <h4 class="display-2 mb-0">25+</h4>
+                                        <p class="text-white fs-5 mb-0">years of experience</p>
+                                    </div>
+                                </div>
+                                <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
+                                    <img src="img/about-2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Banner Start -->
+         <div class="container-fluid banner py-5 wow zoomIn" data-wow-delay="0.2s">
+            <div class="banner-design-1"></div>
+            <div class="banner-design-2"></div>
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="">
+                            <h4 class="text-white">Contact With Me</h4>
+                            <h1 class="display-4 text-white mb-0">We provide professional electric services for our customer</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center justify-content-lg-end h-100">
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">EXPLORE MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Banner End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Services</h4>
+                    <h1 class="display-4 mb-4">The Best Service For You</h1>
+                    <p class="mb-0">“Driven by a commitment to innovation and sustainability, Electra delivers modern electricity services that empower progress. We focus on building smarter, greener, and more dependable power solutions for a brighter tomorrow.”
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-3 wow fadeInLeft" data-wow-delay="0.2s">
+                        <ul class="nav">
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5 active" data-bs-toggle="pill" href="#ServiceTab-1">
+                                    <span>Commercial</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-2">
+                                    <span>Residential</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4 mb-lg-0">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-3">
+                                    <span>Industrial</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="tab-content">
+                            <div id="ServiceTab-1" class="tab-pane fade show p-0 active">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Brite Spark Services</h4>
+                                            <p class="mb-4"></p>“Brite Spark Services delivers reliable and efficient electrical solutions for homes, businesses, and industries. With a focus on quality, safety, and precision, we ensure every connection powers performance and trust.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">“With Electra’s Energy Ease Packages, you can enjoy sustainable and affordable energy without compromise. We combine cutting-edge technology with eco-friendly solutions to make clean power simple and accessible.”</h4>
+                                            <p class="mb-4">“Experience the future of energy with Electra’s Energy Ease Packages. Advanced technology and intelligent design work together to give you uninterrupted, efficient, and hassle-free power.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">Electra
+                                            <h4 class="mb-3">Electra Care Packages</h4>
+                                            <p class="mb-4">“Electra Care Packages provide comprehensive support for all your electrical needs. From routine maintenance to emergency services, our team ensures your power systems run smoothly and efficiently.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServiceTab-2" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/residential-1.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">“Electra provides a full range of professional electrical services designed to meet the needs of homes, businesses, and industries. Our team ensures safety, reliability, and efficiency in every project.”</h4>
+                                            <p class="mb-4">“From initial consultation to installation and ongoing maintenance, Electra tailors every solution to your specific requirements. Our expert team uses the latest technology and industry best practices to deliver energy systems that are safe, efficient, and built to last.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-2.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Security Systems</h4>
+                                            <p class="mb-4">“Electra’s Security Systems offer reliable protection for homes, offices, and industrial facilities. Our expert team designs and installs advanced solutions to ensure safety, monitor risks, and prevent disruptions.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-3.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Air Conditioner</h4>
+                                            <p class="mb-4">“From installation to routine maintenance and repairs, Electra ensures your air conditioning systems operate at peak efficiency. Our professional services maximize performance and extend the lifespan of your equipment.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServiceTab-3" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/industrial-1.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Factory Manufacture</h4>
+                                            <p class="mb-4">“At Electra, we integrate advanced technology and innovative manufacturing processes to produce efficient, high-performance electrical solutions tailored to industrial and commercial needs.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3"></h4>general elecrical</h4>
+                                            <p class="mb-4">“From smart home systems to industrial power solutions, Electra integrates modern technology into every project. We deliver reliable and innovative electrical services that meet the demands of today and tomorrow.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-3.jpg" class="img-fluid w-100" alt="">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Electrical Planing</h4>
+                                            <p class="mb-4">“From concept to execution, Electra’s electrical planning integrates modern technology and smart design. We create energy systems that maximize efficiency, minimize risk, and support future-ready operations.”
+                                            </p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Projects Start -->
+        <div class="container-fluid projects bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Our Projects</h4>
+                            <h1 class="display-4 mb-4">How to work Our Electricity Projects</h1>
+                            <p class="mb-5">“Our electricity projects combine cutting-edge technology and expert engineering. From initial design to final implementation, Electra ensures seamless integration and optimal performance in every system we deliver.”
+                            <ul class="nav">
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Power Path Unveiling Our process</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Electro Flow Decoding Our method</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Energetic Engine Behind Scenes</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item bg-white mb-4 w-100">
+                                    <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-4">
+                                        <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Watt Works Discover Operations</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="tab-content">
+                            <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
+                                <div class="projects-item">
+                                    <img src="img/industrial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Power Path Unveiling Our process</h4>
+                                        <p class="mb-4">“Our Power Path outlines the complete journey of our electricity projects. From initial assessment to final implementation, every step is designed to ensure safety, efficiency, and reliable energy solutions.”
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-2" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Electro Flow Decoding Our method</h4>
+                                        <p class="mb-4">“Decoding our Electro Flow method reveals how cutting-edge technology and smart engineering work together. Electra’s approach guarantees optimized performance and seamless energy solutions for every project.”
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-3" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-3">Energetic Engine Behind Scenes</h4>
+                                        <p class="mb-4">“Behind every seamless energy solution is our Energetic Engine. Advanced technology, smart planning, and skilled professionals work together to deliver uninterrupted and optimized power systems.”
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ProjectsTab-4" class="tab-pane fade show p-0">
+                                <div class="projects-item">
+                                    <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="projects-content bg-white p-4">
+                                        <h4 class="mb-4">Watt Works Discover Operations</h4>
+                                        <p class="mb-4">“Watt Works reveals the core operations behind our electrical projects. Electra ensures every process is carefully planned and executed to deliver safe, efficient, and reliable power solutions.”
+                                        </p>
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Blog Start -->
+         <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Blog</h4>Electricit
+                    <h1 class="display-4 mb-4">y News & Updates</h1>
+                    <p class="mb-0">“Stay informed with the latest news and updates from the world of electricity. Electra brings you insights on industry developments, innovative solutions, and upcoming projects that shape the future of energy.”
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electrifying Reads Explore Our Electricity</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">“Welcome to Electricity Corner, your go-to source for insights, tips, and updates on everything electrical. Electra shares knowledge to help you stay informed and make smart energy decisions.”
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Empowering Energy Dive into Our Electricity </a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">“Welcome to Electricity Corner, your hub for the latest news, insights, and tips on energy and electrical solutions. Explore innovations, safety advice, and sustainable practices that keep your home, business, or industry powered efficiently and reliably.”
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electricity Explained: Bloggin Power of Tomorrow</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">“Welcome to Electricity Corner, your hub for the latest news, insights, and tips on energy and electrical solutions. Explore innovations, safety advice, and sustainable practices that keep your home, business, or industry powered efficiently and reliably.”
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Blog End -->
+
+        <!-- Team Start -->
+         <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Team</h4>
+                    <h1 class="display-4 mb-4">Electricity Service offerings</h1>
+                    <p class="mb-0">“Welcome to Electricity Corner, your hub for the latest news, insights, and tips on energy and electrical solutions. Explore innovations, safety advice, and sustainable practices that keep your home, business, or industry powered efficiently and reliably.”
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial bg-dark py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-xl-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Testimonial</h4>
+                        <h1 class="display-4 text-white mb-4">Powerfull Praise Heare From Our Customers</h1>
+                        <p class="mb-4">“Electricity Corner highlights the latest innovations, smart solutions, and technological advancements in the world of energy. Stay connected with trends that shape the future of electricity.”
+                        </p>
+                        <a class="btn btn-light py-3 px-5" href="#">View All Reviews</a>
+                    </div>
+                    <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">“Discover the newest trends, technologies, and innovations in electrical solutions. Our Electricity News & Updates section keeps you ahead in energy efficiency, smart systems, and sustainable power.”.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">“Watt Works provides a behind-the-scenes look at our industrial and commercial operations. From design and installation to monitoring and maintenance, Electra delivers high-performance electrical systems built to last.”.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">“The Energetic Engine Behind Scenes represents the meticulous planning and operational excellence that drive industrial and commercial electrical projects. Every connection, system, and component is engineered for long-term performance.”.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- Testimonial End -->
+
+
+        <!-- FAQ Start -->
+         <div class="container-fluid faq-section bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Some Important FAQ's</h4>
+                        <h1 class="display-4 mb-4">Common Frequently Asked Questions?</h1>
+                        <p class="mb-4">“The Energetic Engine Behind Scenes highlights the expert team and precise operations that power every project. Electra ensures that every system runs efficiently, safely, and reliably, even behind the scenes.”
+                        </p>
+                        <a class="btn btn-primary py-3 px-5" href="#">Have Any Questions</a>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="h-100">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Q: How Do I Sing Up For Your Electricity Services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: “Electro Flow details our step-by-step methodology for industrial and commercial projects. From precise planning to meticulous execution, we deliver high-performance electrical systems built to last.”
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Q: What Types Of Electricity Plans Do You Offer?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: “Our Electro Flow method integrates sustainable practices at every stage. Electra ensures that energy solutions are not only efficient and reliable but also environmentally responsible.”
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Q: What Are Your Billing And Payment Options?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: “Decoding our Electro Flow method reveals how cutting-edge technology and smart engineering work together. Electra’s approach guarantees optimized performance and seamless energy solutions for every project.”
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Q: How Can I Track My Energy Usage With Your Services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: “Electro Flow details our step-by-step methodology for industrial and commercial projects. From precise planning to meticulous execution, we deliver high-performance electrical systems built to last.”
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- FAQ End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative mx-auto">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Email address to Subscribe">
+                            <button type="button" class="btn btn-primary position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h3 class="text-white mb-4"><i class="fas fa-bolt text-primary me-3"></i>Electra</h3>
+                                <p class="mb-3">“Electro Flow details our step-by-step methodology for industrial and commercial projects. From precise planning to meticulous execution, we deliver high-performance electrical systems built to last.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"> Home</a>
+                            <a href="#"> About us</a>
+                            <a href="#"> Service</a>
+                            <a href="#"> Testimonial</a>
+                            <a href="#"> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Electricity service</h4>
+                            <a href="#"> Air Conditioning</a>
+                            <a href="#"> Electrical Panels</a>
+                            <a href="#"> Security System</a>
+                            <a href="#"> Indoor Lighting</a>
+                            <a href="#"> Electrical Services</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="#"><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, New York, USA</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope text-primary me-2"></i> info@example.com</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope text-primary me-2"></i> info@example.com</a>
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone text-primary me-2"></i> +012 345 67890</a>
+                            <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print text-primary me-2"></i> +012 345 67890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+       
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
